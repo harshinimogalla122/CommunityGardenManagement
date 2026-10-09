@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Community Garden Management</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🌱 Community Garden</h1>
+        <p>Growing together, one garden at a time!</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#plots">Garden Plots</a>
+        <a href="#members">Members</a>
+        <a href="#tasks">Tasks</a>
+        <a href="#maintenance">Maintenance</a>
+        <a href="#harvest">Harvest</a>
+        <a href="#announcements">Announcements</a>
+        <a href="#volunteers">Volunteer Hours</a>
+    </nav>
+
+    <main>
+
+        <!-- Dashboard -->
+        <section id="dashboard">
+            <h2>Garden Dashboard</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>Total Plots</h3>
+                    <p id="plotCount">6</p>
+                </div>
+
+                <div class="card">
+                    <h3>Members</h3>
+                    <p id="memberCount">0</p>
+                </div>
+
+                <div class="card">
+                    <h3>Pending Tasks</h3>
+                    <p id="taskCount">0</p>
+                </div>
+
+                <div class="card">
+                    <h3>Volunteer Hours</h3>
+                    <p id="volunteerCount">0</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Garden Plots -->
+        <section id="plots">
+            <h2>🌿 Garden Plots</h2>
+            <p>View the plots in our community garden.</p>
+
+            <div class="plot-list">
+                <div class="plot">
+                    <h3>Plot 1</h3>
+                    <p>Tomatoes</p>
+                    <span>Occupied</span>
+                </div>
+
+                <div class="plot">
+                    <h3>Plot 2</h3>
+                    <p>Spinach</p>
+                    <span>Occupied</span>
+                </div>
+
+                <div class="plot">
+                    <h3>Plot 3</h3>
+                    <p>Carrots</p>
+                    <span>Occupied</span>
+                </div>
+
+                <div class="plot">
+                    <h3>Plot 4</h3>
+                    <p>Beans</p>
+                    <span>Occupied</span>
+                </div>
+
+                <div class="plot">
+                    <h3>Plot 5</h3>
+                    <p>Flowers</p>
+                    <span>Occupied</span>
+                </div>
+
+                <div class="plot">
+                    <h3>Plot 6</h3>
+                    <p>Available</p>
+                    <span>Open</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Member Registration -->
+        <section id="members">
+            <h2>👩‍🌾 Member Registration</h2>
+            <p>Register a new community garden member.</p>
+
+            <form id="memberForm">
+                <label for="memberName">Member Name:</label>
+                <input
+                    type="text"
+                    id="memberName"
+                    placeholder="Enter member name"
+                    required
+                >
+
+                <button type="submit">Register Member</button>
+            </form>
+
+            <h3>Registered Members</h3>
+            <ul id="memberList"></ul>
+        </section>
+
+        <!-- Task Scheduling -->
+        <section id="tasks">
+            <h2>📅 Task Scheduling</h2>
+            <p>Organize garden activities and responsibilities.</p>
+
+            <form id="taskForm">
+                <label for="taskName">Task Name:</label>
+                <input
+                    type="text"
+                    id="taskName"
+                    placeholder="Example: Water the plants"
+                    required
+                >
+
+                <label for="taskDate">Task Date:</label>
+                <input type="date" id="taskDate" required>
+
+                <button type="submit">Add Task</button>
+            </form>
+
+            <h3>Scheduled Tasks</h3>
+            <ul id="taskList"></ul>
+        </section>
+
+        <!-- Watering and Maintenance -->
+        <section id="maintenance">
+            <h2>💧 Watering & Maintenance Logs</h2>
+            <p>Record watering, cleaning, and other garden activities.</p>
+
+            <form id="maintenanceForm">
+                <label for="maintenanceTask">Activity:</label>
+                <input
+                    type="text"
+                    id="maintenanceTask"
+                    placeholder="Example: Watered Plot 1"
+                    required
+                >
+
+                <button type="submit">Add Maintenance Log</button>
+            </form>
+
+            <ul id="maintenanceList"></ul>
+        </section>
+
+        <!-- Harvest Records -->
+        <section id="harvest">
+            <h2>🥕 Harvest Records</h2>
+            <p>Keep track of vegetables, fruits, and flowers harvested.</p>
+
+            <form id="harvestForm">
+                <label for="harvestName">Harvest Item:</label>
+                <input
+                    type="text"
+                    id="harvestName"
+                    placeholder="Example: 2 kg tomatoes"
+                    required
+                >
+
+                <button type="submit">Record Harvest</button>
+            </form>
+
+            <ul id="harvestList"></ul>
+        </section>
+
+        <!-- Announcements -->
+        <section id="announcements">
+            <h2>📢 Announcements</h2>
+
+            <div class="announcement">
+                <h3>Welcome, Garden Members!</h3>
+                <p>Let's work together to keep our community garden green and healthy.</p>
+            </div>
+
+            <div class="announcement">
+                <h3>Upcoming Garden Activity</h3>
+                <p>Remember to check the task schedule and help maintain the garden.</p>
+            </div>
+        </section>
+
+        <!-- Volunteer Hours -->
+        <section id="volunteers">
+            <h2>🤝 Volunteer Hours</h2>
+            <p>Record the hours contributed by community volunteers.</p>
+
+            <form id="volunteerForm">
+                <label for="volunteerName">Volunteer Name:</label>
+                <input
+                    type="text"
+                    id="volunteerName"
+                    placeholder="Enter volunteer name"
+                    required
+                >
+
+                <label for="volunteerHours">Hours Worked:</label>
+                <input
+                    type="number"
+                    id="volunteerHours"
+                    min="1"
+                    step="0.5"
+                    placeholder="Enter hours"
+                    required
+                >
+
+                <button type="submit">Record Volunteer Hours</button>
+            </form>
+
+            <ul id="volunteerList"></ul>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Community Garden Management</p>
+        <p>Growing a greener community together! 🌱</p>
+    </footer>
+
+</body>
+</html>
