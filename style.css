@@ -59,7 +59,7 @@ section {
 }
 
 section h2 {
-    color: #246b45;
+    color: #ffffff;
     margin-bottom: 15px;
 }
 
@@ -201,46 +201,62 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    min-height: 700px;
+    padding: 60px 20px;
 }
 #plots {
     background-image: url("garden2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    min-height: 700px;
+    padding: 60px 20px;
 }
 #members {
     background-image: url("garden3.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    min-height: 700px;
+    padding: 60px 20px;
 }
 #tasks {
     background-image: url("garden4.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    min-height: 700px;
+    padding: 60px 20px;
 }
 #maintenance {
     background-image: url("garden5.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    min-height: 700px;
+    padding: 60px 20px;
 }
 #harvest {
     background-image: url("garden6.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    min-height: 700px;
+    padding: 60px 20px;
 }
 #announcements {
     background-image: url("garden7.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    min-height: 700px;
+    padding: 60px 20px;
 }
 #volunteers {
     background-image: url("garden8.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    min-height: 700px;
+    padding: 60px 20px
 }
