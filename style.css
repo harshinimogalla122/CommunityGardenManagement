@@ -256,5 +256,20 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     min-height: 700px;
-    padding: 60px 20px
+    padding: 60px 20px;
+}
+#harvest h2,
+#harvest p,
+#harvest label,
+#harvest h3,
+#members h2,
+#members p,
+#members label,
+#members h3,
+#maintenance h2,
+#maintenance p,
+#maintenance label,
+#maintenance h3{
+    color: #ffffff!important;
+    text-shadow: 1px 1px 4px #000000;
 }
