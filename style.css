@@ -196,3 +196,51 @@ footer {
         width: 100%;
     }
 }
+#dashboard {
+    background-image: url("garden1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#plots {
+    background-image: url("garden2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#members {
+    background-image: url("garden3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repat: no-repeat;
+}
+#tasks {
+    background-image: url("garden4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#maintenance {
+    background-image: url("garden5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#harvest {
+    background-image: url("garden6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#announcements {
+    background-image: url("garden7.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#volunteers {
+    background-image: url("garden8.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
