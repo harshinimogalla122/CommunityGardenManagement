@@ -50,8 +50,6 @@ main {
 }
 
 section {
-    background-color: white;
-    padding: 25px;
     margin-bottom: 25px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
@@ -59,7 +57,7 @@ section {
 }
 
 section h2 {
-    color: #ffffff;
+    color: #ffffff!important;
     margin-bottom: 15px;
 }
 
